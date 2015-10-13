@@ -79,7 +79,7 @@
         $scope.changevalue = function (val, url) {
             $scope.init_feed = val;
             $scope.url_value = url;
-            $http.jsonp('//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=50&callback=JSON_CALLBACK&q=' + encodeURIComponent(url)).success(function(response) {
+            $http.jsonp('http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=50&callback=JSON_CALLBACK&q=' + encodeURIComponent(url)).success(function(response) {
                 $scope.feed_list = response.responseData.feed.entries;
             });
             $scope.hide_count = false;
