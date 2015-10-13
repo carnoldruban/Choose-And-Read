@@ -1,4 +1,4 @@
-<h1> Choose-And-Read <h1>
+<h1> Choose-And-Read (News Feed) <h1>
 <pre>
   -  A challenge was posted on Internet to create a RSS News feed that is displayed based on Category
     
