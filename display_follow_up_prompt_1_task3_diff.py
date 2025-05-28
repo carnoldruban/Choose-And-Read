@@ -1,7 +1,7 @@
 def get_follow_up_prompt_1_task3_diff():
-    prompt = """Thank you for the initial version. The input text areas for 'Original Code' and 'Changed Code' need to display line numbers alongside the text as the user types or pastes content. Please implement this feature."""
+    prompt = """Enhance the usability of the input areas. Please add a 'Clear' button next to both the 'Original Code' text area and the 'Changed Code' text area. Clicking a 'Clear' button should empty the content of its respective text area. Additionally, if any diff comparison results are currently displayed, these results should also be cleared when the content of either input text area is cleared."""
     
-    print("Follow-up Prompt 1 (Task 3 - Code Diff Checker):")
+    print("Follow-up Prompt 1 (Task 3 - Code Diff Checker - Revised):")
     print("---")
     print(prompt)
     print("---")
